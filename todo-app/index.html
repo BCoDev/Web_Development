@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>To Do List</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="fontawesome/css/all.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <!-- Bootstrap CDN
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+</head>
+
+<body>
+<div class="flex">
+  <main id="container">
+    <h1>To Do List</h1>
+    <input type="text" placeholder="Enter To Do" id="enter-todo">
+    <button id="submit">Submit</button>
+    <ul id="todo-list">
+      <li>Go to Class<span class="remove-todo"><i class="far fa-trash-alt"></i></span></li>
+      <li>Buy groceries <span class="remove-todo"><i class="far fa-trash-alt"></i></span></li>
+      <li>Find family photos <span class="remove-todo"><i class="far fa-trash-alt"></i></span></li>
+      <li>Eat <span class="remove-todo"><i class="far fa-trash-alt"></i></span></li>
+    </ul>
+  </main>
+  <section class="flex-edit">
+    <button class="edit"><i class="fas fa-filter fa-2x"></i></button>
+    <button class="edit"><i class="fas fa-calendar fa-2x"></i></button>
+  </section>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+        crossorigin="anonymous"></script>
+<script src="todo.js"></script>
+  </html>
